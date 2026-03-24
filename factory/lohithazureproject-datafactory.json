@@ -1,0 +1,9 @@
+{
+	"name": "lohithazureproject-datafactory",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6900f675-b347-46a5-9331-6f8c49b3d2cf",
+		"tenantId": "59196492-142a-4584-abbe-9b5dbbe59022"
+	}
+}
