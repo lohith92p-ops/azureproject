@@ -186,11 +186,11 @@
 					],
 					"ifTrueActivities": [
 						{
-							"name": "update_last_cdc_copy1",
+							"name": "update_last_cdc",
 							"type": "Copy",
 							"dependsOn": [
 								{
-									"activity": "max_cdc_copy1",
+									"activity": "max_cdc",
 									"dependencyConditions": [
 										"Succeeded"
 									]
@@ -260,7 +260,7 @@
 							]
 						},
 						{
-							"name": "max_cdc_copy1",
+							"name": "max_cdc",
 							"type": "Script",
 							"dependsOn": [],
 							"policy": {
