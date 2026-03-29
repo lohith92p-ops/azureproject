@@ -81,7 +81,7 @@
 									"parameters": {
 										"container": "bronze",
 										"folder": {
-											"value": "@{item().table}_cdc",
+											"value": "@item().table",
 											"type": "Expression"
 										},
 										"file": {
@@ -185,7 +185,7 @@
 												"parameters": {
 													"container": "bronze",
 													"folder": {
-														"value": "@{item().table}_cdc",
+														"value": "@item().table",
 														"type": "Expression"
 													},
 													"file": {
@@ -291,7 +291,7 @@
 												"parameters": {
 													"container": "bronze",
 													"folder": {
-														"value": "@{item().table}_cdc",
+														"value": "@item().table",
 														"type": "Expression"
 													},
 													"file": "empty.json"
@@ -305,7 +305,7 @@
 												"parameters": {
 													"container": "bronze",
 													"folder": {
-														"value": "@{item().table}_cdc",
+														"value": "@item().table",
 														"type": "Expression"
 													},
 													"file": "cdc.json"
