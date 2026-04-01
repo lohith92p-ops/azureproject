@@ -1,5 +1,5 @@
 # azureproject
-##Spotify Data Pipeline (ADF + Databricks)
+## Spotify Data Pipeline (ADF + Databricks)
 
 ### Overview
 End-to-end data pipeline built using Azure services to ingest, process, and transform Spotify data into analytics-ready datasets using the Medallion Architecture.
